@@ -1,0 +1,222 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center !important;
+}
+
+/* Multiple selector */
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1
+{
+    color: #fff;   
+}
+
+.testimonial-text
+{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.section-heading
+{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.price-text
+{
+    font-size: 2.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.big-heading
+{
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Hierarchical selector */
+#title .container-fluid
+{
+    padding: 3% 15% 7%  !important;
+}
+
+.container-fluid
+{
+    padding: 7% 15%  !important;
+}
+
+.navbar
+{
+    padding: 0 0 4.5rem !important;
+}
+
+#title
+{
+    background-color: #FF4c68;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem !important;
+}
+
+.download-btn
+{
+    margin:5% 3% 5% 0;
+}
+
+.title-img
+{
+    width: 20% !important;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+p
+{
+    color: #8f8f8f;
+    font-weight: 500 !important;
+}
+
+
+
+.feature-box
+{
+    padding: 1% !important;
+    width: 33% !important;
+}
+
+.feature-icon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* Pseudo class :hover */
+.feature-icon:hover  
+{
+    color: #FF4c68;
+}
+
+#testimonials
+{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+#pricing
+{
+    padding: 100px;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+#cta
+{
+    background-color: #FF4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.pricing-title
+{
+    font-size: 1.5rem !important;
+}
+
+.feature-title
+{
+    font-size: 1.5rem !important;
+}
+
+.cta-heading
+{
+    font-size:3.5rem !important;
+    line-height: 1.5 !important;
+}
+
+.social-icon
+{
+    margin: 20px 10px;
+}
+
+@media (max-width:992px) {
+    .title-img
+    {
+        position:static;
+        width:50% !important;
+        transform: rotate(0deg);
+    }
+    #title
+    {
+        text-align: center;
+    }
+
+}
+
+/* @media print 
+{
+
+}  Change page when being printed
+
+@media<type><feature>
+
+max-width: 900px If the width is less than 900px 
+min-width: 900px If the width is greater than or equal to 900px*/
+
+
+/* div#title - The div with id of title */
+
+/* inline style>id>class>tag */
+
+/* Use id only sparingly */
